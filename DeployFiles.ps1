@@ -1,4 +1,4 @@
-$destination = "C:\Program Files\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\MountAndGladius\"
+$destination = "C:\Program Files\Steam\steamapps\common\Mount & Blade II Bannerlord\Modules\MountAndGladiusII\"
 $binaryDir = ($destination + "bin\Win64_Shipping_Client")
 $xmlDir = ($destination + "ModuleData")
 

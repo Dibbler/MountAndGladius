@@ -249,9 +249,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="SubModule.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="SubModule.xml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ModuleData\" />
