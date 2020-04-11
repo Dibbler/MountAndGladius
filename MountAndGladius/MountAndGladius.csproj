@@ -253,6 +253,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ModuleData\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>PowerShell -ExecutionPolicy Unrestricted -File "$(SolutionDir)DeployFiles.ps1"</PostBuildEvent>
