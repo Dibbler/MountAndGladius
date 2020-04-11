@@ -1,2 +1,2 @@
-# MountAndGladius2
-Mount &amp; Gladius 2 mod for Mount And Blade: Bannerlord
+# Mount And Gladius II
+Mount &amp; Gladius II mod for Mount And Blade: Bannerlord
