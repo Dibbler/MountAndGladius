@@ -12,8 +12,23 @@
          <DependedModule Id="StoryMode" />
      </DependedModules>
      <SubModules>
-         <SubModule>
-         </SubModule>
+       <SubModule>
+         <Name value = "MountAndGladius"/>
+         <DLLName value = "MountAndGladius.dll"/>
+         <SubModuleClassType value = "MountAndGladius.MGSubModule"/>
+         <Tags>
+           <Tag key="DedicatedServerType" value ="none" />
+         </Tags>
+       </SubModule>
      </SubModules>
-     <Xmls/>
+     <Xmls>
+		<XmlNode>                
+			<XmlName id="SPCultures" path="spcultures_mng"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode> 	 
+	 </Xmls>
  </Module>
